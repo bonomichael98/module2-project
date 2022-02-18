@@ -2,11 +2,19 @@
     font-family: 'lucida console';
 }
 
+body {
+    background-color:rgb(153, 145, 145);
+}
+
 .boxed {
     background-color: grey;
     padding: 10px;
-    color: black;
+    color: cyan;
     height: fit-content;
+}
+
+.color-text {
+    color: rgb(97, 76, 76);
 }
 
 /*start of nav*/
@@ -16,7 +24,7 @@ section {
     display: flex;
 }
 
-#title {
+#name {
     flex-basis: 15%;
 }
 
@@ -31,7 +39,6 @@ nav {
 nav ul li {
     text-decoration: underline solid 3px blue;
     color: blue;
-    justify-content: space-around;
 }
 
 ul {
@@ -42,7 +49,6 @@ ul {
 
 li {
     margin: 1%;
-    justify-content: space-around;
 }
 
 .container {
@@ -56,9 +62,96 @@ li {
 }
 /*end of nav*/
 
-.highlight:hover {
+/*start of title*/
+.title {
+    background-size: cover;
+    background-image: url('../images/bg-image2.jpg');
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 {
+    float: right;
+    padding: 2%;
+}
+
+.title h1 {
+    align-self: end;
+}
+/*end of title*/
+/*start of main*/
+main {
+    display: flex;
+}
+
+.row {
+    display: flex;
+    padding: 2%;
+}
+
+.row h2 {
+    text-align: right;
+}
+
+.column1 {
+    float: left;
+    width: 30%;
+    border-right: 2px solid cyan;
+    padding: 5px;
+}
+
+.column2 {
+    width: 90%;
+}
+
+
+.double {
+    display: flex;
+    justify-content: center;
+}
+
+.primary {
+    width: 100%;
+}
+
+.secondary {
+    width: 100%;
+}
+
+.padding {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
 
 }
+/*end of main*/
+
+/*start of footer*/
+footer {
+    display: flex;
+}
+/*end of footer*/
+
+.image {
+    opacity: 0.6;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    border: 5px solid cyan;
+    height: auto;
+    position: relative;
+    left: 20px;
+    margin: 4px;
+}
+
+.image:hover {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}​
 
 a:link {
     text-decoration: underline solid 3px blue;
