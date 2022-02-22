@@ -85,9 +85,7 @@ li {
 }
 /*end of title*/
 /*start of main*/
-main {
-    display: flex;
-}
+
 
 .row {
     display: flex;
@@ -135,8 +133,13 @@ main {
 
 /*start of footer*/
 footer {
-    display: flex;
+    width: 100%;
 }
+
+.contact {
+    justify-content: space-around;
+}
+
 /*end of footer*/
 
 .image {
