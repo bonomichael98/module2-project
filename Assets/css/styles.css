@@ -60,6 +60,11 @@ li {
     flex: 1;
     margin-right: auto;
 }
+
+.avatar {
+    width: 2%;
+    height: 2%;
+}
 /*end of nav*/
 
 /*start of title*/
