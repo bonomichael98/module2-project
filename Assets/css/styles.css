@@ -62,8 +62,8 @@ li {
 }
 
 .avatar {
-    width: 2%;
-    height: 2%;
+    width: 10%;
+    height: 10%;
 }
 /*end of nav*/
 
@@ -98,7 +98,7 @@ li {
 
 .column1 {
     float: left;
-    width: 30%;
+    width: 10%;
     border-right: 2px solid cyan;
     padding: 5px;
 }
