@@ -16,5 +16,5 @@ I was unable to get the contact me section to maintain the same width and propor
 ![screenshot2](https://i.imgur.com/O9KG4t1.png)
 
 
-![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
-
+## 05 Link to deployed application
+https://bonomichael98.github.io/module2-project/
